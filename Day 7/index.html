@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video And Audio Tags</title>
+</head>
+
+<body>
+    <h2>These are Inline elements</h2>
+    <video src="video.mp4" width="466" controls preload="auto"></video>
+
+    <!-- src: Specifies the path to the video file.
+    controls: Adds video controls, like play, pause, and volume.
+    autoplay: Automatically starts playing the video when the page loads.
+    loop: Repeats the video once it ends.
+    muted: Mutes the video by default.
+    poster: Specifies an image to be displayed before the video starts playing.
+    width and height: Specifies the dimensions of the video. -->
+
+    <audio src="audio.mp3" controls></audio>
+
+    <!-- src: Specifies the path to the audio file.
+    controls: Adds audio controls, like play, pause, and volume.
+    autoplay: Automatically starts playing the audio when the page loads.
+    loop: Repeats the audio once it ends.
+    muted: Mutes the audio by default.
+    preload: Specifies if and how the audio should be loaded when the page loads ('auto', 'metadata', 'none'). -->
+
+    <svg height="100" width="100">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="green" />
+    </svg>
+    <img src="img.svg" alt="SVG image">
+    <iframe src="https://docs.python.org/3.12/library/index.html" width="666" height="430"></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/09Urt8CSQAA?si=Ooq4DpN5wTNPvTOs"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+
+</html>

@@ -1,1 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #070806d7;
+        }
+
+        header {
+            text-align: center;
+            align-items: center;
+        }
+
+        a {
+            color: rgb(229, 255, 0);
+        }
+
+        h1 {
+            color: rgb(246, 247, 244);
+            text-align: center;
+        }
+
+        h2 {
+            color: rgb(229, 255, 0);
+        }
+
+        h3 {
+            color: rgb(16, 226, 44);
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .media-item {
+            margin: 15px;
+            padding: 10px;
+            background: rgb(17, 17, 15);
+            align-items: center;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgb(255, 0, 255);
+            width: 300px;
+        }
+
+        audio,
+        video {
+            width: 100%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Our Multimedia Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#audios">Audios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="videos">
+            <h2>Videos</h2>
+            <div class="video-container">
+                <div class="video">
+                    <h3>Safar</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/09Urt8CSQAA?si=dGaG8OS0yN7qM_mr"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video">
+                    <h3>Din Dhalay</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/gzO8c_QNawg?si=kBABjhB6wgub2lGm"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video">
+                    <h3>Teri Tasveer</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/QEKinUgP2H4?si=tPmmiPSET92HWozr"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video">
+                    <h3>Nahin Milta </h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/umsrQSA2iOM?si=Df-M3-7-tiycir5B"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video">
+                    <h3>Farda</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mzASNgboXc8?si=5vZOD4f-Lfex0VIQ"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video">
+                    <h3>Sapna</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/h4g5AkMf_Bs?si=UjxNMdTTef9K7Z_n"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="audios">
+            <h2>Audios</h2>
+            <div class="media-item">
+                <h3>Audio 1</h3>
+                <audio controls>
+                    <source src="audio1.mp3" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                </audio>
+            </div>
+            <div class="media-item">
+                <h3>Audio 2</h3>
+                <audio controls>
+                    <source src="audio2.mp3" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                </audio>
+            </div>
+            <div class="media-item">
+                <h3>Audio 3</h3>
+                <audio controls>
+                    <source src="audio3.mp3" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                </audio>
+            </div>
+            <div class="media-item">
+                <h3>Audio 4</h3>
+                <audio controls>
+                    <source src="audio4.mp3" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                </audio>
+            </div>
+            <div class="media-item">
+                <h3>Audio 5</h3>
+                <audio controls>
+                    <source src="audio5.mp3" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                </audio>
+            </div>
+            <div class="media-item">
+                <h3>Audio 6</h3>
+                <audio controls>
+                    <source src="audio6.mp3" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                </audio>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Copyrights 2024 Multimedia Website</p>
+    </footer>
+</body>
+
+</html>

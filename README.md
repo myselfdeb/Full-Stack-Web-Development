@@ -12,5 +12,5 @@ Version Control: Using Git and GitHub for version control and collaboration.
 
 Deployment: Hosting your applications on platforms like Heroku or Vercel.
 
-### Getting Started
+## Getting Started
 To get started, simply clone this repository and follow the instructions in the README file. Each module will guide you through the learning process step by step.
